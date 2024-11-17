@@ -35,12 +35,17 @@
         <dd class="col-sm-10"> 
             @Html.DisplayFor(model => model.Book.PublishingDate) 
         </dd>
-        </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Book.Publisher)
+            @Html.DisplayNameFor(model => model.Book.PublisherID)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Book.Publisher)
+            @Html.DisplayFor(model => model.Book.PublisherID)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Book.BookCategories)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Book.BookCategories)
         </dd>
     </dl>
 </div>
